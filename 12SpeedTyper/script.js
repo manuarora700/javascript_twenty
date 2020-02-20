@@ -43,6 +43,7 @@ let score = 0;
 // Init time
 let time = 10;
 
+let newWord = "";
 // set difficulty to value in local storage or medium
 let difficulty =
   localStorage.getItem("difficulty") !== null
