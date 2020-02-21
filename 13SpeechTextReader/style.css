@@ -53,9 +53,11 @@ select:focus {
   color: #fff;
   padding: 20px;
   border-radius: 5px;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-
+.text-box.show {
+  transform: translate(-50%, 0);
+}
 .text-box select {
   background-color: darksalmon;
   border: 0;
