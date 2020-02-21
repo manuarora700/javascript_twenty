@@ -70,7 +70,7 @@ h1 button {
   height: 100%;
   width: 100%;
   transform: translateX(50%) rotateY(-10deg);
-  transition: transform 0.4s ease, opacity 0.4 ease;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 
 .card.active {
@@ -139,7 +139,7 @@ h1 button {
 
 .navigation .nav-button {
   border: none;
-  background-color: transparent;
+  background: transparent;
   cursor: pointer;
   font-size: 16px;
 }
