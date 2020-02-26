@@ -12,6 +12,7 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
 h1 {
   font-size: 45px;
   color: #fff;
@@ -39,6 +40,7 @@ canvas {
 .btn:hover {
   background: #222;
 }
+
 .btn:active {
   transform: scale(0.98);
 }
